@@ -1,0 +1,52 @@
+body {
+    background-image: url(../pictures/background.jpg);
+    background-size: 100%;
+}
+
+.leftbutton {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    background-color: darkgoldenrod;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+.rightbutton {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    background-color: darkgoldenrod;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+
+}
+
+.context {
+    top:30%;
+    border: 2px solid brown;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+}
+
+.picture {
+    width: 1200px;
+}
